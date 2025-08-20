@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+/* Using Google Fonts */
+html { 
+    font-family: 'Fenix';font-size: 22px;
+}
+
+/* Creating a grid for the nav section */
+nav {
+    text-decoration: none ;
+    text-align : center ;
+    font-size : 20px ;
+    display : grid ;
+    grid-template-columns: auto auto auto auto ;
+    grid-gap : 2em ;
+}
+
+/* Changing alignment and size of the caption */
+figcaption {
+    text-align : center ;
+    font-size : 15px ;
+}
+
+/* Changing text color to black, along with making it underlined and bold */
+a {
+    text-decoration: underline ;
+    font-weight : bold ;
+    color: black ;
+}
+
+/* Moving text to center */
+body header {
+    text-align : center ;
+}
+
+/* Changing dimensions of the image and create space with margins */
+.image1 {
+    display : block;
+    margin-left : auto;
+    margin-right : auto;
+    width : 75%;
+    height : 60% ;
+    filter : opacity(100%) ;
+}
+
+/* Changing style of hr element */
+.theline {    
+    border-style : solid ;
+    border-width : thin ;
+    width : 100% ;
+}
+
+/* Displays the element as a block-level flex container and moves it to the center */
+.link1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Creating text box */
+p.speechbubble3, ul, li{
+    position: relative ;
+    margin-left : 10% ;
+    margin-right: 10% ;
+    background-color: black ;
+    padding: 10px;
+    border-radius: 10px;
+    width: 65% ;
+    margin: 20px;
+    transform : translateX(25%) ;
+}
+
+/* Move text to center and increase the size of the text */
+body h2 {
+    text-align : center; 
+    font-size : 30px ; 
+}
+
+/*Set text color to white, make space with margins and increase size of text*/
+p {
+    margin-left : 10% ;
+    margin-right: 10% ;
+    font-size : 20px ;
+    color : white ;
+}
+
+/*change style of unordered list*/
+ul li {
+    font-size : 20px ;
+    line-height: 30px ;
+    color : white ;
+    text-decoration: underline ;
+    text-align: left;
+}
+
+/*change background color and make grid*/
+.sect {
+    background-color : black ;
+    display : grid ;
+    grid-template-columns: auto auto auto auto ;
+}
+/*make grid,change grid gap, 3 colums for the grid, change text size and move the words down by 15px. */
+section a {
+    display : grid ;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto ;
+    grid-gap : 2em ;
+    font-size : 20px ;
+    color : white ;
+    transform: translateY(15px) ;  
+}
